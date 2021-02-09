@@ -42,7 +42,7 @@ The easiest way to get started is to clone the repository, create a new rails ap
 
 ```bash
 # Get the latest snapshot from GitHub
-git clone https://github.com/sahat/hackathon-starter.git reactive_rails_starter
+git clone https://github.com/noamsun/reactive_rails_starter.git reactive_rails_starter
 
 # Navigate to your projects directory and create a new app
 rails new my_app -d <postgresql, mysql, sqlite3> -m /path/to/reactive_rails_starter/template.rb
