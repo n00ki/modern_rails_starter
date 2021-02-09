@@ -1,6 +1,6 @@
 # Reactive Rails Starter :rocket:
 
-***Reactive Rails Starter*** is an opinionated, fully configured template for developing reactive web application using Rails 6. Pre-Configured with Hotwire (Turbo & StimulusJS), TailwindCSS, ViewComponent, Devise, Pundit, Sidekiq, Pagy and many other great tools, you can use this template to kickstart your own reactive web applications.
+***Reactive Rails Starter*** is an opinionated, fully configured template for developing reactive web applications using Rails 6. Pre-Configured with Hotwire (Turbo & StimulusJS), TailwindCSS, ViewComponent, Devise, Pundit, Sidekiq, Pagy and many other great tools, you can use this template to kickstart your own reactive web applications.
 
 This template is based almost exclusively on the amazing contributions of [Andy Leverenz](https://github.com/justalever) & [Chris Oliver](https://twitter.com/excid3/). Please consider supporting their work.
 
