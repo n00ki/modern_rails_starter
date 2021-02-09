@@ -77,4 +77,4 @@ hivemind Procfile
 - `PurgeCSS` configuration.
 - Custom defaults for button and form elements (by [Andy Leverenz](https://github.com/justalever)).
 
-## Stop procrastinating, start building! :muscle:
+### Stop procrastinating, start building! :muscle:
