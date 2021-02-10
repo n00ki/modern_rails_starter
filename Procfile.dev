@@ -1,6 +1,3 @@
 web: bundle exec rails server
+worker: bundle exec sidekiq
 webpack: bin/webpack-dev-server
-# enable background processing wih Sidekiq
-#
-# worker: bundle exec sidekiq
-#
