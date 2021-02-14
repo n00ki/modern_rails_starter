@@ -1,4 +1,4 @@
-# Template Name: Reactive Rails Starter
+# Template Name: Modern Rails Starter
 # Author: Noam Shemesh
 # Instructions: $ rails new myapp -d <postgresql, mysql, sqlite3> -m template.rb
 
@@ -158,7 +158,7 @@ after_bundle do
   git commit: %( -m "Initial commit" )
 
   say
-  say 'you have successfully created a reactive_rails app! 🙏🏼', :blue
+  say 'you have successfully created a Modern Rails app! 🙏🏼', :blue
   say
   say 'Switch to your app by running:'
   say "$ cd #{app_name}", :yellow

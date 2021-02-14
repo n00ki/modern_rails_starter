@@ -1,6 +1,6 @@
-# Reactive Rails Starter :rocket:
+# Modern Rails Starter :rocket:
 
-***Reactive Rails Starter*** is an opinionated, fully configured template for developing reactive web applications using Rails 6. Pre-Configured with Hotwire (Turbo & StimulusJS), TailwindCSS, ViewComponent, Devise, Pundit, Sidekiq, Pagy and many other great tools, you can use this template to kickstart your own reactive web applications.
+***Modern Rails Starter*** is an opinionated, fully configured template for developing modern web applications using Rails 6. Pre-Configured with Hotwire (Turbo & StimulusJS), TailwindCSS, ViewComponent, Devise, Pundit, Sidekiq, Pagy and many other great tools, you can use this template to kickstart your own reactive web applications.
 
 This template is based almost exclusively on the amazing contributions of [Andy Leverenz](https://github.com/justalever) & [Chris Oliver](https://twitter.com/excid3/). Please consider supporting their work.
 
@@ -42,10 +42,10 @@ The easiest way to get started is to clone the repository, create a new rails ap
 
 ```bash
 # Get the latest snapshot from GitHub
-git clone https://github.com/noamsun/reactive_rails_starter.git reactive_rails_starter
+git clone https://github.com/noamsun/modern_rails_starter.git modern_rails_starter
 
 # Navigate to your projects directory and create a new app
-rails new my_app -d <postgresql, mysql, sqlite3> -m /path/to/reactive_rails_starter/template.rb
+rails new my_app -d <postgresql, mysql, sqlite3> -m /path/to/modern_rails_starter/template.rb
 
 # Change directory
 cd my_app
@@ -61,14 +61,14 @@ hivemind Procfile
 
 ### Once created, what do i get?
 
-- `TailwindCSS` Support (using `Webpack`).
-- flexible authentication with `Devise` (a new `name` field already migrated in, which maps to the `first_name` and `last_name` fields in the database (thanks to the `name_of_person` gem). 
+- `TailwindCSS` Support (using `Webpack`), configured for `Inter` font.
+- Flexible authentication with `Devise` & user impersonation with `devise_masquerade` (a new `name` field already migrated in, which maps to the `first_name` and `last_name` fields in the database (thanks to the `name_of_person` gem). 
 - Pre-baked, devise-compatible Turbo & StimulusJS (`Hotwire` )support.
-- `ViewComponent` Support. This template installs the gem and generates a test component (and preview).
+- `ViewComponent` Support. This template installs the gem and generates a test component (and a preview).
 - Simple, efficient background processing with `Sidekiq` and `whenever`.
 - Object oriented authorization with `Pundit`.
-- `Friendly ID`s initialization out-of-the-box. This template installs the gem and runs the associated generator, check [friendly_id's](https://github.com/norman/friendly_id) documentation for more information about integrating it with your own models.
-- Better pagination out-of-the-box with `Pagy`. This template installs the gem, initializes it and creates the default config file. 
+- `Friendly ID`s out-of-the-box. This template installs the gem and runs the associated generator. check [friendly_id's](https://github.com/norman/friendly_id) documentation for more information about integrating it with your own models.
+- Faster pagination with `Pagy`. This template installs the gem and creates a default config file. 
 - Ready-to-use `ActiveStorage` and `mini_magick`.
 - Developer happiness guaranteed with great tools like `pry-rails`, `faker` and `annotate`.
 - Enhanced boilerplate views using `TailwindCSS` (thanks to [Andy Leverenz](https://github.com/justalever)).
